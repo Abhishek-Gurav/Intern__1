@@ -2,7 +2,6 @@
 
 import Block from "../components/Block";
 import Button from "../components/Button";
-
 export default function Home() {
   return (
     <div>
@@ -13,11 +12,7 @@ export default function Home() {
       </div>
       <div class="main">
         <Block text="HOW CAN WE HELP YOU?" class="main__question" />
-        <Block text="Question 1" class="main__options" />
-        <Block text="Question 1" class="main__options" />
-        <Block text="Question 1" class="main__options" />
-        <Block text="Question 1" class="main__options" />
-        <Block text="Question 1" class="main__options" />
+          <Block class="main__options" />
       </div>
     </div>
   );
