@@ -10,7 +10,7 @@ h5{
   color:#fff;
   display:inline-block;
 }
-button{
+.auth-btn{
   background-color:#82DB62;
   border:none;
   width:8vw;
@@ -26,7 +26,7 @@ button{
 .main__question{
   margin:auto;
   background-color:#00E86B;
-  width:80vw;
+  max-width:80vw;
   text-align:left;
   padding:1vw 0 1vw 3vw;
   margin-bottom:4vh;
@@ -34,11 +34,75 @@ button{
 }
 .main__options{
   background-color:#91c7b6;
-  width:80vw;
+  max-width:80vw;
   margin:auto;
   border-radius:3px;
-  height:30px;
+  min-height: 30px;
+  height:auto;
   padding-top:5px;
   padding-left:10px;
   margin-bottom: 15px;
+}
+
+/* Feedback */
+
+.feed__btn__1{
+  background-color:#00BD57;
+  border:none;
+  color: white;
+  font-weight: bold;
+  min-width:8vw;
+  height:3.5vh;
+  font-size:1.5vw;
+  border-radius: 5px;
+  margin: 10vh 0 5vh 3vw;
+  padding: 0 1vw;
+}
+.feed__btn__2{
+  background-color:#00BD57;
+  border:none;
+  color: white;
+  min-width:8vw;
+  height:3.5vh;
+  font-size:1.5vw;
+  border-radius: 5px;
+  margin: 5vh 0 5vh 3vw;
+  padding: 0 1vw;
+}
+.feed__btn__3{
+  background-color: #2d7d9f;
+  border: none;
+  margin-left: 31vw;
+  min-width: 6.5vw;
+}
+
+.feed__p{
+  margin-left: 3.5vw;
+  color: white;
+  font-size: 1.2vw;
+}
+
+.feed__t{
+  background-color: #c5ecc5;
+  margin-left: 3.5vw;
+  width: 34vw;
+  height: 15vh;
+  display: block;
+  margin-bottom: 3vh;
+}
+.fntawsm{
+  background-color: white;
+  background-size: auto;
+  margin-left: 0.5vw;
+  display: block;
+}
+
+.feed__fntasm__div{
+  margin-bottom: 2vh;
+  background-color: white;
+  width: 2vw;
+  margin-left: 3vw;
+}
+.feed__fntasm__p{
+  margin-left: 5vw;
 }
